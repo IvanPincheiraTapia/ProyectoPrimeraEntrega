@@ -1,0 +1,17 @@
+{% extends 'padre.html' %}
+
+{% load static %}
+
+{% block contenidoquecambia %}
+<center>       
+    <form action="{% url 'busquedaV' %}" method="GET">{% csrf_token %}
+    
+        <h2>Busqueda de un Vendedor</h2>
+
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre del Vendedor"/>
+        <input type="submit" value="Buscar"/>
+
+    </form>
+
+</center>  
+{% endblock contenidoquecambia %}

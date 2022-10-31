@@ -1,0 +1,22 @@
+{% extends 'padre.html' %}
+
+{% load static %}
+
+{% block contenidoquecambia %}
+<center> 
+    <!-- ########## Al ser una lista lo que manda filter, ahi que recorrerla ##########-->
+    {% for vehiculo in list_vehiculos %}
+    <!-- ########## Puse un estilo ##########-->
+    <div class = "contenedorAuto">
+
+        <p>Numero de Vehiculo <span>{{vehiculo.id}}</span></p>
+        <p>Marca de Vehiculo <span>{{vehiculo.marca}}</span></p>
+        <p>Modelo de Vehiculo <span>{{vehiculo.modelo}}</span></p>
+        <p>Condicion de Vehiculo <span>{{vehiculo.usado}}</span></p>
+        <p>Precio de Vehiculo <span>{{vehiculo.precio}}</span></p>
+
+    </div>
+    {% endfor %}
+
+</center>  
+{% endblock contenidoquecambia %}

@@ -1,0 +1,18 @@
+.collapse navbar-collapse1{
+
+    margin-left: 150px;
+
+}
+
+.contenedorAuto {
+    background-color: black;
+    width: fit-content;
+    border-radius: 15px;
+    padding: 15px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.contenedorAuto span{
+    color: greenyellow;
+}

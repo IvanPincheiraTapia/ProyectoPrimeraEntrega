@@ -1,0 +1,13 @@
+{% extends 'padre.html' %}
+
+{% load static %}
+
+{% block contenidoquecambia %}
+<center>       
+
+    <h4>Sucursal {{obj_sucursal.nombre}}</h4>
+    <p>Ubicacion: {{obj_sucursal.ubicacion}}</p>
+    <p>Telefono: {{obj_sucursal.telefono}}</p>
+
+</center>  
+{% endblock contenidoquecambia %}
