@@ -1,5 +1,9 @@
 # ProyectoPrimeraEntrega
-Proyecto de venta de vehículos y administración de concesionaria
+Integrantes:
+Isaías Robles Vega
+Jaime Soto Mondragón
+Iván Pincheira Tapia
+
 # ProyectoFinalVehiculos
 Proyecto entrega parcial de vehiculos
 
